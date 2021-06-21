@@ -1,0 +1,100 @@
+.TopSection {
+	position: fixed;
+	top: 70px;
+	width: 100%;
+	z-index: 1;
+}
+
+.viewInventory__topInput {
+	margin: 5% 38%;
+	display: flex;
+	align-items: center;
+}
+.viewInventory__topInput > input {
+	padding: 6px;
+    background-color: #cec2da;
+    border: none;
+    border-radius: 5px;
+}
+.viewInventory__topInput > button {
+	color: white;
+	margin-left: 5px;
+	background-color: rgb(119 80 181);
+	border-radius: 4px;
+}
+.viewInventory__topInput > button:hover {
+	background-color: white;
+	color: rgb(119 80 181);
+}
+.Middle_Section{
+	position: fixed;
+	top: 170px;
+	width: 100%;
+	z-index: 1;
+	color: rgb(119 80 181);
+	
+}
+.InputUserName{
+	align-items: center;
+	margin: 2% 35% 0% 35%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.InputExplained{
+	align-items: center;
+	margin: 0% 32% 0% 32%;
+    font-style: italic;
+    font-size: 15px;
+}
+.DiscoverBox{
+	position: fixed;
+	top: 300px;
+	width: 47%;
+	z-index: 1;
+	color: white;
+    align-items: center !important;
+    background-color: rgb(46 32 68);
+	margin: 0% 20% 0% 25%;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.DiscoverBox_Icon{
+	font-size: 28px;
+}
+.DiscoverBox_Text{
+	font-weight: bold;
+	font-size: 15px;
+}
+.DiscoverBoxT1{
+	display: inline-block;
+	padding-left: 8px;
+}
+.DiscoverBoxT2{
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+.DiscoverBoxT3{
+	display: inline-block;
+}
+.DiscoverBox1{
+	margin: 0% 13% 0% 14%;
+	display: inline-block;
+}
+.DiscoverBox2{
+	display: inline-block;
+	margin: 0% 20% 0% 19%;
+}
+.DiscoverBox3{
+	display: inline-block;
+	margin: 0% 1% 0% 8%;
+}
+.UnderConstruction{
+	position: fixed;
+	bottom: 90px;
+	width: 100%;
+	z-index: 1;
+	margin: 4% 22%;
+	font-size: 20px;
+	color: rgb(119 80 181);
+	font-weight: bold;
+}
